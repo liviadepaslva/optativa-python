@@ -1,0 +1,5 @@
+frase = input("Digite uma frase: ")
+frase = frase.strip()
+palavras = frase.split()
+numero_palavras = len(palavras)
+print("Número de palavras:", numero_palavras)
