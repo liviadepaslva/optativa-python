@@ -4,5 +4,5 @@ def epar(a):
     else:
         return False
     
-epar(2)
-epar(1)
+print(epar(2))
+print(epar(1))

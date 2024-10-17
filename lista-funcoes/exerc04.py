@@ -1,5 +1,5 @@
-def area_triangulo(base, altura):
-    return (base * altura) / 2
+def area_quad(lado):
+    return lado * lado
 
-print(area_triangulo(6, 9))
-print(area_triangulo(8, 12))
+print(area_quad(2))
+print(area_quad(3))
